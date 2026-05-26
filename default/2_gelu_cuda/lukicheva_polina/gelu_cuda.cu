@@ -14,6 +14,7 @@ __global__ void GeluKernel(float* input, float* output, int nElems) {
     }
 }
 
+
 std::vector<float> GeluCUDA(const std::vector<float>& input) {
     int nElems = input.size();
     std::vector<float> output(nElems);
@@ -27,7 +28,6 @@ std::vector<float> GeluCUDA(const std::vector<float>& input) {
     cudaMalloc(&dOutput, nElems*sizeof(float));
 
     cudaMemcpy(dInput, hInput, nElems*sizeof(float), cudaMemcpyHostToDevice);
-    cudaMemcpy(dOutput, hOutput, nElems*sizeof(float), cudaMemcpyHostToDevice);
 
     const int block_size = 256;
     int num_blocks = (nElems + block_size - 1) / block_size;
@@ -40,10 +40,9 @@ std::vector<float> GeluCUDA(const std::vector<float>& input) {
     cudaFree(dOutput);
     
     return output;
-
 }
 
-#if 0
+#if 1
 std::vector<float> GeluRef(const std::vector<float>& input) {
     size_t nElems = input.size();
     std::vector<float> output(nElems);
