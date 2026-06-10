@@ -481,6 +481,7 @@ One may use numba or C strings to write CUDA kernels.
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |**REF**|**REF**|**0.1930**|**-**|
+|default|smirnov_denis|RUN FAILED|-|
 
 # Tasks Done
 ## default
