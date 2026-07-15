@@ -455,10 +455,10 @@ One may use numba or C strings to write CUDA kernels.
 |**REF**|**REF**|**0.1864**|**-**|
 |default|pinegina_natalia|0.2180|7|
 |default|lukicheva_polina|0.2290|4|
+|default|pushchin_alexey|0.2378|30|
 |default|putilin_artyom|0.2385|21|
 |default|rodygin_vadim|0.3343|14|
 |default|kireev_daniil|TEST FAILED|-|
-|default|pushchin_alexey|BUILD FAILED|-|
 
 ## 3_naive_gemm_cuda (4096 elements)
 |Group|Name|Result|Rank|
@@ -610,6 +610,7 @@ One may use numba or C strings to write CUDA kernels.
 |default|zinoviev_vladimir|0.1030|2|
 |default|salnikov_nikolay|0.1030|15|
 |default|malinin_nikita|0.1720|12|
+|default|pushchin_alexey|0.1720|30|
 |default|zvorykin_aleksandr|0.1750|14|
 |default|belov_dmitry|0.1760|28|
 |default|zemskov_roman|0.1780|5|
@@ -637,47 +638,46 @@ One may use numba or C strings to write CUDA kernels.
 |default|novozhilov_mikhail|0.2630|20|
 |default|rodygin_vadim|0.2640|18|
 |default|vikhrev_ivan|0.2670|16|
-|default|pushchin_alexey|RUN FAILED|-|
 
 # Tasks Done
 ## default
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|default|babayan_konstantin|**7/7**|**232**|
-|default|belov_dmitry|**7/7**|**154**|
-|default|bolshakova_viktoriya|**7/7**|**169**|
-|default|chekmaryov_petr|**7/7**|**287**|
-|default|chervyakov_ivan|**7/7**|**277**|
-|default|ermilov_dmitry|**7/7**|**297**|
+|default|babayan_konstantin|**7/7**|**231**|
+|default|belov_dmitry|**7/7**|**153**|
+|default|bolshakova_viktoriya|**7/7**|**168**|
+|default|chekmaryov_petr|**7/7**|**286**|
+|default|chervyakov_ivan|**7/7**|**276**|
+|default|ermilov_dmitry|**7/7**|**296**|
 |default|kireev_daniil|0/7|0|
-|default|korobeynikov_aleksey|**7/7**|**195**|
-|default|kozlov_mikhail|**7/7**|**276**|
-|default|kryukov_dmitry|**7/7**|**214**|
-|default|lobanova_elizaveta|**7/7**|**377**|
-|default|lukicheva_polina|**7/7**|**177**|
+|default|korobeynikov_aleksey|**7/7**|**194**|
+|default|kozlov_mikhail|**7/7**|**275**|
+|default|kryukov_dmitry|**7/7**|**213**|
+|default|lobanova_elizaveta|**7/7**|**376**|
+|default|lukicheva_polina|**7/7**|**176**|
 |default|malinin_nikita|**7/7**|**266**|
-|default|novozhilov_mikhail|**7/7**|**175**|
-|default|pashchenkov_maxim|**7/7**|**161**|
-|default|pigasin_dmitry|**7/7**|**303**|
-|default|pinegina_natalia|**7/7**|**255**|
-|default|pisarevsky_vadim|**7/7**|**336**|
-|default|pushchin_alexey|5/7|80|
-|default|putilin_artyom|**7/7**|**154**|
-|default|rodygin_vadim|**7/7**|**175**|
+|default|novozhilov_mikhail|**7/7**|**174**|
+|default|pashchenkov_maxim|**7/7**|**160**|
+|default|pigasin_dmitry|**7/7**|**302**|
+|default|pinegina_natalia|**7/7**|**254**|
+|default|pisarevsky_vadim|**7/7**|**335**|
+|default|pushchin_alexey|**7/7**|**120**|
+|default|putilin_artyom|**7/7**|**152**|
+|default|rodygin_vadim|**7/7**|**173**|
 |default|salnikov_nikolay|**7/7**|**231**|
-|default|smirnov_denis|**7/7**|**343**|
-|default|suchkov_vladislav|**7/7**|**156**|
-|default|vikhrev_ivan|**7/7**|**268**|
-|default|volkovskiy_pavel|**7/7**|**198**|
-|default|zemskov_roman|**7/7**|**335**|
+|default|smirnov_denis|**7/7**|**342**|
+|default|suchkov_vladislav|**7/7**|**155**|
+|default|vikhrev_ivan|**7/7**|**267**|
+|default|volkovskiy_pavel|**7/7**|**197**|
+|default|zemskov_roman|**7/7**|**334**|
 |default|zinoviev_vladimir|**7/7**|**417**|
-|default|zlobin_george|**7/7**|**241**|
-|default|znamenskiy_mikhail|**7/7**|**297**|
-|default|zvorykin_aleksandr|**7/7**|**292**|
+|default|zlobin_george|**7/7**|**240**|
+|default|znamenskiy_mikhail|**7/7**|**296**|
+|default|zvorykin_aleksandr|**7/7**|**291**|
 
-Passed: 29
+Passed: 30
 
-**Total Passed: 29**
+**Total Passed: 30**
 
 ---
 *Maximum Score: 448 (64 per task)*
